@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.SMS" parent="Theme.MaterialComponents.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/white</item>
+        <item name="titleTextColor">@android:color/holo_green_dark</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="fontFamily">@font/roboto</item>
+
+        <item name="actionBarTheme">@style/ThemeOverlay.Actionbar</item>
+
+    </style>
+
+    <style name="ThemeOverlay.Actionbar" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" >
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:padding="@dimen/_10sdp"
+            app:srcCompat="@drawable/ic_message"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:text="@string/permission_required"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:gravity="center"
+            android:text="@string/permission_info"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btAllow"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_10sdp"
+            android:text="@string/allow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+</layout>

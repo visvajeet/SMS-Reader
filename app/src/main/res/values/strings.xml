@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SMS</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_info">SMS permission is required to use this application. Please allow the permission.</string>
+    <string name="allow">Allow</string>
+    <string name="channel_name">SMS</string>
+    <string name="channel_description">SMS details</string>
+</resources>
